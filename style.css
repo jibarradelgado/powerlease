@@ -1,0 +1,401 @@
+/*
+Theme name: Power Lease
+Version: 1.0
+Description: Brochure site for Powerlease
+Author: Jorge Ibarra
+Author URI: https:jorgeibarra.com.mx
+License: Copyright U-Be 2020
+License URI:
+*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 1920px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1,h2,h3,h4,ul {
+    font-family: "futura", Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    font-size: 53pt;
+}
+h2 {
+    font-size: 33pt;
+}
+p,.footer_menu {
+    font-family: "avenir-roman", Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+    font-size: 19pt;
+    line-height: 120%;
+}
+footer {
+    background-color: #142b44;
+    color: white;
+}
+u {
+    text-decoration: underline #4cb042;
+}
+main.container {
+    padding: 0;
+}
+.main_menu {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.main_menu li a {
+    font-size: 20pt;
+    color: #142b44;
+}
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+footer p {
+    font-size: 16pt;
+    padding: 0 0 0 10px;
+}
+.footer_menu {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0 0 0 15px;
+}
+.footer_menu li a {
+    color:white;
+}
+.copyright {
+    padding: 0 15px 0 0;
+    margin-top: auto;
+    font-size: 13pt;
+}
+.copyright-col {
+    display: inline-grid;
+}
+
+.front_page {
+    width: auto;
+}
+
+#inicio {
+    display: block;
+    background-image: url(./assets/img/power-lease-a01-small.png);
+    background-attachment: scroll;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+    height: auto;
+}
+
+#whoweare {
+    width: 85%;
+    margin-top: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    height: auto;
+}
+#whoweare h1 {
+    text-shadow: 1px 1px 2px #aaa;
+    text-align: center;
+}
+#whoweare p {
+    letter-spacing: -1px;
+    word-spacing: -1px;
+}
+#whoweare .carousel-inner {
+    min-height: 500px;
+    padding-bottom: 50px;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: green;
+}
+
+#productos {
+    background-color: #C9E2C2;
+    text-align: center;
+}
+#productos h1 {
+    text-shadow: 1px 1px 2px #aaa;
+    padding-top: 25px;
+}
+#productos h2 {
+    padding: 20px 0 10px 0;
+    display: block;
+}
+#productos p {
+    text-align: center;
+    padding: 0px 15px;
+}
+.producto-image {
+    width: 125px;
+    height: auto;
+}
+
+#ventajas {
+    display: block;
+    background-image: url(./assets/img/power-lease-b02-small.png);
+    background-position-x: center;
+    background-position-y: -75px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: auto;
+    padding-bottom: 15px;
+    text-align: center;
+}
+#ventajas h2 {
+    text-shadow: 1px 1px 3px #aaa;
+}
+#ventajas p {
+    padding: 0 15px;
+    text-align: left;
+}
+.ventajas-group {
+    margin-top: 500px;
+}
+.bulb {
+    width: auto;
+    height: 125px;
+}
+
+#proveedores h2 {
+    text-align: center;
+}
+#proveedores img {
+    width: 100%;
+    height: auto;
+}
+#providers {
+    margin-left: 50px;
+    margin-right: 50px;
+    height: auto;
+}
+#providers .carousel-inner img {
+    margin: auto;
+}
+#providers img {
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+}
+#providers .carousel-control-prev {
+    margin-left: -40px;
+}
+#providers .carousel-control-next {
+    margin-right: -40px;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23111' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23111' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+#contacto {
+    margin-top: 50px;
+}
+.mercado {
+    margin-bottom: 15px;
+}
+.mercado li {
+    margin-bottom: 5px;
+    padding-left: 5px;
+    font-family: "avenir-roman";
+}
+#contacto h2 {
+    padding-left: 15px;
+}
+#contacto label {
+    padding-bottom: 2px;
+}
+#contacto .textwidget {
+    padding: 0px 15px;
+}
+.submit-button {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.submit-button input {
+    background-color: #4CB042;
+    border-radius: 45px 45px 45px 45px;
+    padding: 10px 50px 10px 50px;
+}
+.submit-button input:hover {
+    background-color: #32782B;
+}
+
+#contacto section p {
+    text-align: center;
+}
+#contacto section p i {
+    margin-right: 15px;
+    color: #142b44;
+    border: 2px solid #142b44;
+    border-radius: 60px;
+    padding: 10px;
+}
+
+#pagina404 img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width: 992px) {
+    header {
+        margin: 0 0 -162px 0;
+        transition: color 1s;
+    }
+    header nav {
+        background: rgba(20, 43, 68, 0.5);
+        border-radius: 60px 0 0 60px;
+    }
+    .main_menu li a {
+        font-family: "futura";
+        font-size: 18pt;
+        font-weight: 400;
+        color: white;
+        transition: color 1s;
+    }
+    header .container .row {
+        margin: 0; 
+    }
+
+    .logo {
+        width: 200px;
+        height: auto;
+        transition: width 1s;
+    }
+
+    h1 {
+        font-size: 70pt;
+    }
+    h2 {
+        font-size: 33pt;
+    }
+    .container {
+        max-width:1920px;
+    }
+    body {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    body .row {
+        width: 100%;
+    }
+
+    #inicio {
+        background-image: url(./assets/img/power-lease-a01.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: -50px;
+        min-height: 900px;
+        max-height: fit-content;
+        width: 100%;
+    }
+    #whoweare {
+        margin-top:200px;
+        padding: 0 50px 0 0;
+        text-align: left;
+    }
+    #whoweare .carousel-inner {
+        min-height: 425px;
+    }
+
+    #productos {
+        padding: 0 0 140px 0;
+        text-align: left;
+    }
+    #productos h1 {
+        margin: 0 0 0 80px;
+        padding: 80px 0 80px 0;
+    }
+    #productos h2 {
+        padding: 0 0 0 15px;
+    }
+    .producto-image {
+        width: 165px;
+        height: auto;
+    }
+    #productos p {
+        text-align: left;
+    }
+    #productos .producto-texto p{
+        text-align: left;
+    }
+
+    #ventajas {
+        background-image: url(./assets/img/power-lease-b02.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x:-40px;
+        min-height: 900px;
+        max-height: fit-content;
+        line-height: 2.5em;
+    }
+    .ventajas-group {
+        padding: 70px 0;
+        margin-top: 0;
+    }
+    .ventajas-text {
+        text-align: right;
+        padding: 0 0 0 40px;
+    }
+    #ventajas p {
+        text-align: right;
+    }
+    .ventajas-text h2 {
+        padding: 0 15px 0 0;
+    }
+    .ventajas-img {
+        text-align: center;
+    }
+    .bulb {
+        width: auto;
+        height: 200px;
+    }
+
+    .mercado {
+        padding-left: 50px;
+    }
+
+    .mapa-sitio-div{
+        padding-left: 50px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    #inicio {
+        background-position-x: 100px;
+    }
+    #whoweare {
+        padding: 0;
+    }
+
+    #ventajas {
+        background-position-x: 0;
+    }
+    .ventajas-text {
+        padding: 0;
+    }
+}
+
+@font-face {
+    font-family: avenir-roman;
+    src: url(./assets/fonts/avenir-roman/Avenir-Roman.woff2);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: futura;
+    src: url(./assets/fonts/futura-condensed/Futura-Condensed-Medium.woff2);
+    font-weight: normal;
+} 
